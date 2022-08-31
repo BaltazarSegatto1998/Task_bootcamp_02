@@ -1,0 +1,120 @@
+body {
+    background-color: #c3c3c3 !important;
+    text-align: center !important;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+img {
+    width: 20%;
+}
+
+table, th, td {
+    border:1px solid red;
+  }
+
+ ol {
+    margin: 0 auto !important;
+    width: 300px !important;
+}
+
+li {
+    width: 300px !important;
+    font-size: 15px !important;
+}
+
+
+
+table {
+    width: 75% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+header {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+}
+
+header h1 {
+    color: black;
+    text-transform: uppercase;
+}
+
+
+header span {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carousel-inner {
+    width: 50% !important;
+    position: relative !important;
+    left: 25% !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border: 1px solid black !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.h3, h3 {
+    padding: 2rem !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(image/arrow-left-square-fill.svg) !important;
+}
+
+.carousel-control-next-icon {
+   background-image: url(image/arrow-right-square-fill.svg) !important;
+}
+
+.carousel-item.active > img {
+    width: 600px !important;
+    height: auto !important;
+}
+
+footer {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white ;
+    margin-top: 2rem;
+}
+
+p {
+    padding: 0 2rem;
+}
+
+h2 {
+
+    padding-top: 2rem;
+}
+
+.animate__animated animate__backInLeft {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 1000ms;
+    --animate-delay: 0.9s;
+  }
